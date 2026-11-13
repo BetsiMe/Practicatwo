@@ -1,16 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package espoch.edu.ec.yasuni.data;
 
 import espoch.edu.ec.yasuni.objects.Tour;
 import espoch.edu.ec.yasuni.objects.Trail;
 
-/**
- *
- * @author aleja
- */
+
 public class Tours {
 
     

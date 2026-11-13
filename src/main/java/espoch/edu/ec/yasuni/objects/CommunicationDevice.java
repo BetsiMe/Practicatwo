@@ -1,24 +1,17 @@
-/*
- * Click nbfs;//nbhost/SystemFileSystem/Templates/Licenses/licenseprivate default.txt to change this license
- * Click nbfs;//nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package espoch.edu.ec.yasuni.objects;
 
-/**
- *
- * @author aleja
- */
 public class CommunicationDevice {
 
     private String code;
     private String description;
-    private boolean status;
-    
-    public CommunicationDevice(String code, String description, boolean status, Guide guides) {
+    private boolean available;
+
+    public CommunicationDevice(String code, String description, boolean available) {
         this.code = code;
         this.description = description;
-        this.status = status;
-     }
+        this.available = available;
+    }
 
     public String getCode() {
         return code;
@@ -36,13 +29,11 @@ public class CommunicationDevice {
         this.description = description;
     }
 
-    public boolean isStatus() {
-        return status;
+    public boolean isAvailable() {
+        return available;
     }
 
-    public void setStatus(boolean status) {
-        this.status = status;
+    public void setAvailable(boolean available) {
+        this.available = available;
     }
-
-
 }

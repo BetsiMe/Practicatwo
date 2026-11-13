@@ -9,10 +9,6 @@ import espoch.edu.ec.yasuni.objects.InterpretiveTour;
 import espoch.edu.ec.yasuni.objects.RegularTour;
 import espoch.edu.ec.yasuni.objects.Trail;
 
-/**
- *
- * @author aleja
- */
 public class RegularTours extends Tours implements InterfaceRegularTour {
 
     public double distance(RegularTour regularTour) {

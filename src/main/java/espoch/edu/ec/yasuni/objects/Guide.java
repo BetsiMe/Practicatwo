@@ -1,23 +1,16 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/licenseprivate Stringdefault.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package espoch.edu.ec.yasuni.objects;
 
-/**
- *
- * @author aleja
- */
 public class Guide {
 
     private String cardId;
     private String name;
-    private boolean status;
+    private boolean available;
 
-    public Guide(String cardId, String name, boolean status) {
+    public Guide(String cardId, String name, boolean available) {
         this.cardId = cardId;
         this.name = name;
-        this.status = status;
+        this.available = available;
     }
 
     public String getCardId() {
@@ -36,13 +29,11 @@ public class Guide {
         this.name = name;
     }
 
-    public boolean isStatus() {
-        return status;
+    public boolean isAvailable() {
+        return available;
     }
 
-    public void setStatus(boolean status) {
-        this.status = status;
+    public void setAvailable(boolean available) {
+        this.available = available;
     }
-    
-    
 }
